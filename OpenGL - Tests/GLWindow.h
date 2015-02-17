@@ -6,8 +6,10 @@ class GLWindow : public QGLWidget
 protected:
 	void initializeGL();
 	void paintGL();
-public:
+	//void sendDataToOpenGL();
+	//void installShaders();
+/*public:
 	GLWindow();
-	~GLWindow();
+	~GLWindow();*/
 };
 

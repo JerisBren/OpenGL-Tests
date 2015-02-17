@@ -7,7 +7,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Main</Filter>
     </ClInclude>
-    <ClInclude Include="GLWindow.h" />
+    <ClInclude Include="GLWindow.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -16,7 +18,10 @@
     <ClCompile Include="Main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
-    <ClCompile Include="GLWindow.cpp" />
+    <ClCompile Include="MeShaderCode.cpp" />
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Main">
